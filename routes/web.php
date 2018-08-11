@@ -19,3 +19,7 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::post('/', 'HomeController@contact');
+
+
+Route::get('/brief', 'BriefController@brief')->name('brief');
+Route::post('/brief', 'BriefController@addBrief');

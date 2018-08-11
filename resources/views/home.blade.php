@@ -102,7 +102,7 @@
                         <div class="o-hidden">
                             <h4>Digital Agency</h4>
                             <h1>INSPIGA | Soft</h1>
-                            <p>Вам потрібний сайт?</p>
+                            <p>Start your business today.</p>
                             <a href="#" class="butn butn-light mt-30" data-scroll-nav="3">
                                 <span>Готові рішення</span>
                             </a>
@@ -117,7 +117,7 @@
                         <div class="o-hidden">
                             <h4>Digital Agency</h4>
                             <h1>INSPIGA | Soft</h1>
-                            <p>Start your business today.</p>
+                            <p>Вам потрібний сайт?.</p>
                             <a href="#" class="butn butn-light mt-30" data-scroll-nav="3">
                                 <span>Готові рішення</span>
                             </a>
