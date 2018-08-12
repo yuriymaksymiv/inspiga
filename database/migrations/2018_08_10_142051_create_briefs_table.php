@@ -21,7 +21,7 @@ class CreateBriefsTable extends Migration
             $table->string('company_name')->nullable();
             $table->string('activity')->nullable();
             $table->string('service', 20)->nullable();
-            $table->integer('price')->nullable();
+            $table->string('price')->nullable();
             $table->tinyInteger('credit')->default(0);
             $table->text('company_site')->nullable();
             $table->string('term')->nullable();
@@ -50,6 +50,7 @@ class CreateBriefsTable extends Migration
             $table->tinyInteger('update_content')->default(0);
             $table->text('details')->nullable();
             $table->string('document')->nullable();
+            $table->string('status')->default('new');
             $table->timestamps();
         });
     }

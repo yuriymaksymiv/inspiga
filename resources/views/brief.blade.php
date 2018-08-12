@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="zxx">
 
 <head>
 
@@ -12,7 +12,7 @@
     <meta name="author" content="" />
 
     <!-- Title  -->
-    <title>Arco</title>
+    <title>Inspiga | Soft - Brief</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -27,37 +27,7 @@
     <link href="{{ asset('css/plugins.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
-
-    <!-- Scripts -->
-    <script src="{{ asset('js/jquery-3.0.0.min.js') }}" defer></script>
-    <script src="{{ asset('js/jquery-migrate-3.0.0.min.js') }}" defer></script>
-    <script src="{{ asset('js/popper.min.js') }}" defer></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}" defer></script>
-    <script src="{{ asset('js/scrollIt.min.js') }}" defer></script>
-    <script src="{{ asset('js/jquery.waypoints.min.js') }}" defer></script>
-    <script src="{{ asset('js/jquery.counterup.min.js') }}" defer></script>
-    <script src="{{ asset('js/owl.carousel.min.js') }}" defer></script>
-    <script src="{{ asset('js/jquery.magnific-popup.min.js') }}" defer></script>
-    <script src="{{ asset('js/jquery.stellar.min.js') }}" defer></script>
-    <script src="{{ asset('js/isotope.pkgd.min.js') }}" defer></script>
-    <script src="{{ asset('js/YouTubePopUp.jquery.js') }}" defer></script>
-
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('js/map.js') }}" defer></script>
-    <script src="{{ asset('js/validator.js') }}" defer></script>
-    <script src="{{ asset('js/scripts.js') }}" defer></script>
-
-
-
-
-    <!-- google map api -->
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK7lXLHQgaGdP3IvMPi1ej0B9JHUbcqB0&callback=initMap">
-    </script>
-
 </head>
-
-<body>
 
 <!-- =====================================
 ==== Start Loading -->
@@ -79,7 +49,7 @@
     <div class="container">
 
         <!-- Logo -->
-        <a class="logo" href="/">
+        <a class="logo-brief" href="/">
             <img src="img/logo-dark.png" alt="logo">
         </a>
 
@@ -129,9 +99,9 @@
 
 
                         <div class="form-group row align-items-center text-right ">
-                            <label class="col-sm-6 col-form-label col-form-label-sm">Введіть ваше І'мя</label>
+                            <label class="col-sm-6 col-form-label col-form-label-sm">Як до Вас звертатися</label>
                             <div class="col-sm-6">
-                                <input type="text" name="name" class="form-control form-control-sm" placeholder="" required="required">
+                                <input type="text" name="name" class="form-control form-control-sm" placeholder="Ім'я та Прізвище" required="required">
                             </div>
                         </div>
                         <div class="form-group row align-items-center text-right">
@@ -162,37 +132,37 @@
                             <div class="col-sm-6 text-right">Яка послуга Вас цікавить?</div>
                             <div class="col-sm-6">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="service" id="exampleRadios1" value="landing" checked>
+                                    <input class="form-check-input" type="radio" name="service" id="exampleRadios1" value="Landing Page" checked>
                                     <label class="form-check-label" for="exampleRadios1">
                                         Landing Page
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="service" id="exampleRadios2" value="site">
+                                    <input class="form-check-input" type="radio" name="service" id="exampleRadios2" value="Сайт Візитка">
                                     <label class="form-check-label" for="exampleRadios2">
                                         Сайт Візитка
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="service" id="exampleRadios3" value="store">
+                                    <input class="form-check-input" type="radio" name="service" id="exampleRadios3" value="Інтернет - Магазин">
                                     <label class="form-check-label" for="exampleRadios3">
                                         Інтернет - Магазин
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="service" id="exampleRadios4" value="corporate">
+                                    <input class="form-check-input" type="radio" name="service" id="exampleRadios4" value="Корпоративний проект">
                                     <label class="form-check-label" for="exampleRadios4">
                                         Корпоративний проект
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="service" id="exampleRadios5" value="site_service">
+                                    <input class="form-check-input" type="radio" name="service" id="exampleRadios5" value="Обслуговування сайту">
                                     <label class="form-check-label" for="exampleRadios5">
                                         Обслуговування сайту
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="service" id="exampleRadios6" value="app" disabled>
+                                    <input class="form-check-input" type="radio" name="service" id="exampleRadios6" value="Розробка мобільного додатку" disabled>
                                     <label class="form-check-label" for="exampleRadios6">
                                         Розробка мобільного додатку
                                     </label>
@@ -203,11 +173,11 @@
                             <label class="col-sm-6 col-form-label col-form-label-sm">Бюджет проекту (приблизно)</label>
                             <div class="col-sm-6">
                                 <select id="inputState" name="price" class="form-control">
-                                    <option>300$ - 500$</option>
-                                    <option selected value="500">500$ - 800$</option>
-                                    <option>800$ - 2 000$</option>
-                                    <option>2 000$ - 4 000$</option>
-                                    <option>від 4 000$</option>
+                                    <option value="300$ - 500$">300$ - 500$</option>
+                                    <option selected value="500$ - 800$">500$ - 800$</option>
+                                    <option value="800$ - 2 000$">800$ - 2 000$</option>
+                                    <option value="2 000$ - 4 000$">2 000$ - 4 000$</option>
+                                    <option value="від 4 000$">від 4 000$</option>
                                 </select>
                             </div>
                         </div>
@@ -480,29 +450,22 @@
     <div class="container">
 
         <!-- Logo -->
-        <a class="logo" href="#">
+        <a class="logo" href="/">
             <img src="img/logo-light.png" alt="logo">
         </a>
+        <p>+38 (095) 88 48 602</p>
+        <p>inspiga.soft@gmail.com</p>
+        <br>
+        {{--<div class="social">--}}
+        {{--<a href="#0" class="icon">--}}
+        {{--<i class="fab fa-facebook-f"></i>--}}
+        {{--</a>--}}
+        {{--<a href="#0" class="icon">--}}
+        {{--<i class="fab fa-instagram"></i>--}}
+        {{--</a>--}}
+        {{--</div>--}}
 
-        <div class="social">
-            <a href="#" class="icon">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="icon">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" class="icon">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#" class="icon">
-                <i class="fab fa-behance"></i>
-            </a>
-            <a href="#" class="icon">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </div>
-
-        <p>&copy; 2018 UI-ThemeZ. All Rights Reserved.</p>
+        <p>&copy; 2018 Inspiga | Soft -  All Rights Reserved.</p>
 
     </div>
 </footer>
@@ -512,5 +475,54 @@
 
 
 
+
+
+<!-- jQuery -->
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+<!-- popper.min -->
+<script src="js/popper.min.js"></script>
+
+<!-- bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- scrollIt -->
+<script src="js/scrollIt.min.js"></script>
+
+<!-- jquery.waypoints.min -->
+<script src="js/jquery.waypoints.min.js"></script>
+
+<!-- jquery.counterup.min -->
+<script src="js/jquery.counterup.min.js"></script>
+
+<!-- owl carousel -->
+<script src="js/owl.carousel.min.js"></script>
+
+<!-- jquery.magnific-popup js -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+
+<!-- stellar js -->
+<script src="js/jquery.stellar.min.js"></script>
+
+<!-- isotope.pkgd.min js -->
+<script src="js/isotope.pkgd.min.js"></script>
+
+<!-- YouTubePopUp.jquery -->
+<script src="js/YouTubePopUp.jquery.js"></script>
+
+<!-- Map -->
+<script src="js/map.js"></script>
+
+<!-- validator js -->
+<script src="js/validator.js"></script>
+
+<!-- custom scripts -->
+<script src="js/scripts.js"></script>
+
+<!-- google map api -->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK7lXLHQgaGdP3IvMPi1ej0B9JHUbcqB0&callback=initMap">
+</script>
+
 </body>
-</html>

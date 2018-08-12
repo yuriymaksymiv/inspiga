@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/welcome', function () {
-    return view('welcome');
+Route::get('/thanks', function () {
+    return view('thanks');
 });
 
 Auth::routes();
@@ -23,3 +23,13 @@ Route::post('/', 'HomeController@contact');
 
 Route::get('/brief', 'BriefController@brief')->name('brief');
 Route::post('/brief', 'BriefController@addBrief');
+
+
+
+
+Route::group(['middleware' => 'auth'], function (){
+    Route::group(['middleware' => 'admin', 'prefix' => 'admin'], function () {
+        Route::get('/', 'Admin\DashboardController@index');
+        Route::get('/brief', 'Admin\BriefController@index');
+    });
+});

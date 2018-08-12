@@ -45,6 +45,7 @@ class Brief extends Model
         'update_content',
         'details',
         'document',
+        'status'
     ];
 
     protected $dates = [

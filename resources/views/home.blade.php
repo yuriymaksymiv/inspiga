@@ -12,7 +12,7 @@
     <meta name="author" content="" />
 
     <!-- Title  -->
-    <title>Arco</title>
+    <title>Inspiga | Soft</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -26,6 +26,8 @@
 
     <link href="{{ asset('css/plugins.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
+
 
 </head>
 
@@ -106,7 +108,7 @@
                             <a href="#" class="butn butn-light mt-30" data-scroll-nav="3">
                                 <span>Готові рішення</span>
                             </a>
-                            <a href="#0" class="butn butn-bg mt-30">
+                            <a href="/brief" class="butn butn-bg mt-30">
                                 <span>БРИФ</span>
                             </a>
                         </div>
@@ -121,7 +123,7 @@
                             <a href="#" class="butn butn-light mt-30" data-scroll-nav="3">
                                 <span>Готові рішення</span>
                             </a>
-                            <a href="#0" class="butn butn-bg mt-30">
+                            <a href="/brief" class="butn butn-bg mt-30">
                                 <span>БРИФ</span>
                             </a>
                         </div>
@@ -150,7 +152,7 @@
                 <h3>INSPIGA | Soft</h3>
                 <h4>Почніть Ваш бізнес сьогодні?</h4>
                 <p>Проекти Inspiga | Soft відрізняються високим рівним виконання, сучасним дизайном і унікальним контентом.</p>
-                <p>Ма рительно вивчаємо Ваші цілі і створюємо сайт який дійсно працюю і приносить прибуток.
+                <p>Ми рительно вивчаємо Ваші цілі і створюємо сайт який дійсно працюю і приносить прибуток.
                     В нашій роботі використовуємо сучасніші інструменти для створення проектів,
                     ретельно стежимо за появою нових методів і технологій, які допоможуть нам працювати якісніше.</p>
             </div>
@@ -488,7 +490,6 @@
                 <h4>Звяжіться з нами</h4>
                 <h6>Feel Free To Contact Us</h6>
             </div>
-
             <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
                 <form class='form'  method='post'><input type='hidden' name='form-name' value='contact-form' />
                     {!! csrf_field() !!}
@@ -517,7 +518,9 @@
                                 <textarea id="form_message" class="form-control form-control-sm" name="message" placeholder="Повідомлення"  required="required"></textarea>
                             </div>
                         </div>
-
+<br>
+<br>
+<br>
                         <div class="col-md-12 text-center">
                             <button type="submit"><span>Надіслати</span></button>
                         </div>
@@ -541,18 +544,20 @@
     <div class="container">
 
         <!-- Logo -->
-        <a class="logo" href="#">
+        <a class="logo" href="/">
             <img src="img/logo-light.png" alt="logo">
         </a>
-
-        <div class="social">
-            <a href="#0" class="icon">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#0" class="icon">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </div>
+        <p>+38 (095) 88 48 602</p>
+        <p>inspiga.soft@gmail.com</p>
+        <br>
+        {{--<div class="social">--}}
+            {{--<a href="#0" class="icon">--}}
+                {{--<i class="fab fa-facebook-f"></i>--}}
+            {{--</a>--}}
+            {{--<a href="#0" class="icon">--}}
+                {{--<i class="fab fa-instagram"></i>--}}
+            {{--</a>--}}
+        {{--</div>--}}
 
         <p>&copy; 2018 Inspiga | Soft -  All Rights Reserved.</p>
 
@@ -561,7 +566,6 @@
 
 <!-- End Footer ====
 ======================================= -->
-
 
 
 

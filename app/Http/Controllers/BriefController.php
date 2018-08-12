@@ -60,7 +60,7 @@ class BriefController extends Controller
 
 
         if($newBrief) {
-            return redirect()->route('home');
+            return view('/thanks');
         }
 
         return redirect()->route('brief');
